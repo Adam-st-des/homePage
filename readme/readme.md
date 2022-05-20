@@ -8,5 +8,5 @@
 - zielony
 
 ## Adres strony: 
-https://adam-st-des.github.io/homepage/
+https://adam-st-des.github.io/homePage/
 
