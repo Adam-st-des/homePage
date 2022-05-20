@@ -1,10 +1,14 @@
-const body= document.querySelector(".body__page");
-const button= document.querySelector(".body__button");
-const word= document.querySelector(".themeName");
-const change= document.querySelector(".changeColor");
+const toggle = ()=> {
+   const word= document.querySelector(".themeName");
+   const change= document.querySelector(".changeColor");
+   const body= document.querySelector(".body__page");
+body.classList.toggle("changeColor")
+word.innerHTML=body.classList.contains("changeColor")? "różowy" : "jasnorózowy";
 
- button.addEventListener("click", () => {
-    body.classList.toggle("changeColor")
-   if(body.classList.contains("changeColor")){word.innerHTML="różowy"}
-    else{word.innerHTML="jasnoróżowy"}
- })
+ }
+ const init = ()=> {
+   const button= document.querySelector(".body__button");
+button.addEventListener("click", toggle);
+
+ }
+ init();
