@@ -1,6 +1,7 @@
 # Strzęciwilk Adam -moja strona
 ![Adam](/photos/Adam.jpg)
-*Kolorystyka:*
+
+ *Kolorystyka:*
 
 - jasnoróżowy
 - różowy
